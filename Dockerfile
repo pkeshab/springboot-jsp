@@ -1,5 +1,5 @@
 FROM java:8
 MAINTAINER 'KESHAB PANDEY'
-ADD my_new_file.war test_file.war
+ADD my_testfile.war spring_file.war
 EXPOSE 9091
-CMD java -jar test_file.war
+CMD java -jar spring_file.war
