@@ -2,4 +2,4 @@ FROM java:8
 MAINTAINER 'KESHAB PANDEY'
 ADD my_new_file.war test_file.war
 EXPOSE 9091
-CMD java -jar test_file.war -server.port=9091
+CMD java -jar test_file.war
