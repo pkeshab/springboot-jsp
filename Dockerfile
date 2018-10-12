@@ -1,6 +1,3 @@
-FROM scratch
-EXPOSE 90
-
-COPY http-server /
-
-CMD ["/http-server"]
+FROM java:8
+MAINTAINER 'KESHAB PANDEY'
+CMD pwd
