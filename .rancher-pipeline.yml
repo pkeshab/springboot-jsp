@@ -3,5 +3,6 @@ stages:
   steps:
   - runScriptConfig:
       image: maven:3-jdk-7
-      mvn clean install package
+      shellScript: |-
+        mvn clean install
 timeout: 55
