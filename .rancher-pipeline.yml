@@ -3,5 +3,5 @@ stages:
   steps:
   - runScriptConfig:
       image: maven:3-jdk-7
-      shellScript: echo " You have succesfully tested the maven using ranhcer 2"
+      mvn clean install package
 timeout: 50
