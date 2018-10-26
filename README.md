@@ -1,4 +1,4 @@
-# Spring Boot Hello World Example with JSP
+## Spring Boot Hello World Example with JSP
 
 ## Guide
 https://hellokoding.com/spring-boot-hello-world-example-with-jsp/
