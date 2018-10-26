@@ -3,6 +3,5 @@ stages:
   steps:
   - runScriptConfig:
       image: maven:3-jdk-7
-      shellScript: mvn -version
       shellScript: echo " You have succesfully tested the maven using ranhcer 2"
 timeout: 60
