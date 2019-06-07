@@ -11,6 +11,7 @@ pipeline {
                 sh 'mvn --version' 
             
             }
+        }
             stage('Building the springboot code'){
                 steps {
                        sh 'mvn clean install'
