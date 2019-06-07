@@ -10,6 +10,12 @@ pipeline {
             steps {
                 sh 'mvn --version' 
             }
+        stage('build and package the code'){
+        sh 'mvn clean install'
+        sh 'mvn package'
+    }
+   
+            
         }
     }
 }
