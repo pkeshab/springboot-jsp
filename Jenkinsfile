@@ -6,14 +6,12 @@ pipeline {
         }
     }
     stages {
-        stage('Check the version of maven') { 
+        stage('Check the version of maven and build the code') { 
             steps {
                 sh 'mvn --version' 
+                sh 'mvn clean install'
             }
-        stage('build and package the code'){
-        sh 'mvn clean install'
-        sh 'mvn package'
-    }
+      
    
             
         }
