@@ -30,7 +30,7 @@ pipeline {
             stage('Building the springboot code'){
                 steps {
                        sh 'mvn clean install'
-                       curl -u admin:admin123 http://localhost:8081/service/metrics/ping
+                       curl --user=admin --password=admin123 http://localhost:8081/service/metrics/ping
                 }
             }
       
